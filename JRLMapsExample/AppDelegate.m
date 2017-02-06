@@ -18,8 +18,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    [GMSPlacesClient provideAPIKey:@"AIzaSyD65ORHbATQV0oUV0R7gRVw0atOzmXa7wQ"];
-    [GMSServices provideAPIKey:@"AIzaSyD65ORHbATQV0oUV0R7gRVw0atOzmXa7wQ"];
+    [GMSPlacesClient provideAPIKey:@"AddYourOwnKeyHere"];
+    [GMSServices provideAPIKey:@"AddYourOwnKeyHere"];
     
     return YES;
 }
