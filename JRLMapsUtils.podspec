@@ -11,8 +11,6 @@ Pod::Spec.new do |s|
   s.version          = '0.1.0'
   s.summary          = 'This open-source utilities library contains classes that are useful for a wide range of map applications
 '
-  s.description      = 'ViewController classes for map applications'
-
   s.homepage         = 'https://github.com/rcmlee99/JRLMapsUtils'
   s.license          = { :type => 'Apache', :file => 'LICENSE' }
   s.author           = { 'rcmlee99' => 'rcmlee99@gmail.com' }
@@ -28,7 +26,8 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'GooglePlaces'
-  s.dependency 'GoogleMaps'
   s.dependency 'JRLUtils'
+  s.dependency 'GoogleMaps'
+  s.dependency 'GooglePlaces'
+
 end

@@ -1,0 +1,771 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96AF258970E5D863160432DE /* Pods_JRLMapsUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 780654DCA82846750F11EF67 /* Pods_JRLMapsUtils.framework */; };
+		B547F7EABE6A49F09EC85797 /* Pods_JRLMapsExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54D1E2F76FAF957B9505C253 /* Pods_JRLMapsExample.framework */; };
+		ECC16FA71E482F9900329E2C /* JRLMapsUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC16FA61E482F9900329E2C /* JRLMapsUtils.m */; };
+		ECC16FA81E482F9900329E2C /* JRLMapsUtils.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = ECC16FA51E482F9900329E2C /* JRLMapsUtils.h */; };
+		ECC16FF21E483B4000329E2C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC16FF11E483B4000329E2C /* main.m */; };
+		ECC16FF51E483B4000329E2C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC16FF41E483B4000329E2C /* AppDelegate.m */; };
+		ECC16FFB1E483B4000329E2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECC16FF91E483B4000329E2C /* Main.storyboard */; };
+		ECC16FFD1E483B4000329E2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECC16FFC1E483B4000329E2C /* Assets.xcassets */; };
+		ECC170001E483B4000329E2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECC16FFE1E483B4000329E2C /* LaunchScreen.storyboard */; };
+		ECC1700B1E483B4000329E2C /* JRLMapsExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC1700A1E483B4000329E2C /* JRLMapsExampleTests.m */; };
+		ECC170161E483B4000329E2C /* JRLMapsExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC170151E483B4000329E2C /* JRLMapsExampleUITests.m */; };
+		ECC170231E483D4000329E2C /* GoogleMapsDropPinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC170221E483D4000329E2C /* GoogleMapsDropPinViewController.m */; };
+		ECC170271E483DDA00329E2C /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC170261E483DDA00329E2C /* MenuViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECC170071E483B4000329E2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECC16F9A1E482F9900329E2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECC16FED1E483B4000329E2C;
+			remoteInfo = JRLMapsExample;
+		};
+		ECC170121E483B4000329E2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECC16F9A1E482F9900329E2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECC16FED1E483B4000329E2C;
+			remoteInfo = JRLMapsExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		ECC16FA01E482F9900329E2C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				ECC16FA81E482F9900329E2C /* JRLMapsUtils.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		54D1E2F76FAF957B9505C253 /* Pods_JRLMapsExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JRLMapsExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		780654DCA82846750F11EF67 /* Pods_JRLMapsUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JRLMapsUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DD4FB3D97558017A1C52C6D /* Pods-JRLMapsExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JRLMapsExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JRLMapsExample/Pods-JRLMapsExample.debug.xcconfig"; sourceTree = "<group>"; };
+		9CDF180663E811C21BECAF40 /* Pods-JRLMapsUtils.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JRLMapsUtils.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JRLMapsUtils/Pods-JRLMapsUtils.debug.xcconfig"; sourceTree = "<group>"; };
+		AFC2A93621D5BF9281925138 /* Pods-JRLMapsExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JRLMapsExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-JRLMapsExample/Pods-JRLMapsExample.release.xcconfig"; sourceTree = "<group>"; };
+		C6EFC4AC4EBC3F9ADC35E987 /* Pods-JRLMapsUtils.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JRLMapsUtils.release.xcconfig"; path = "Pods/Target Support Files/Pods-JRLMapsUtils/Pods-JRLMapsUtils.release.xcconfig"; sourceTree = "<group>"; };
+		ECC16FA21E482F9900329E2C /* libJRLMapsUtils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJRLMapsUtils.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECC16FA51E482F9900329E2C /* JRLMapsUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JRLMapsUtils.h; sourceTree = "<group>"; };
+		ECC16FA61E482F9900329E2C /* JRLMapsUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JRLMapsUtils.m; sourceTree = "<group>"; };
+		ECC16FAE1E482FBA00329E2C /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		ECC16FEE1E483B4000329E2C /* JRLMapsExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JRLMapsExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECC16FF11E483B4000329E2C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECC16FF31E483B4000329E2C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ECC16FF41E483B4000329E2C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ECC16FFA1E483B4000329E2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECC16FFC1E483B4000329E2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECC16FFF1E483B4000329E2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECC170011E483B4000329E2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECC170061E483B4000329E2C /* JRLMapsExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JRLMapsExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECC1700A1E483B4000329E2C /* JRLMapsExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JRLMapsExampleTests.m; sourceTree = "<group>"; };
+		ECC1700C1E483B4000329E2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECC170111E483B4000329E2C /* JRLMapsExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JRLMapsExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECC170151E483B4000329E2C /* JRLMapsExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JRLMapsExampleUITests.m; sourceTree = "<group>"; };
+		ECC170171E483B4000329E2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECC170211E483D4000329E2C /* GoogleMapsDropPinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GoogleMapsDropPinViewController.h; path = Classes/GoogleMapsDropPinViewController.h; sourceTree = "<group>"; };
+		ECC170221E483D4000329E2C /* GoogleMapsDropPinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GoogleMapsDropPinViewController.m; path = Classes/GoogleMapsDropPinViewController.m; sourceTree = "<group>"; };
+		ECC170251E483DDA00329E2C /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		ECC170261E483DDA00329E2C /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		ECC170281E483E0100329E2C /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECC16F9F1E482F9900329E2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96AF258970E5D863160432DE /* Pods_JRLMapsUtils.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC16FEB1E483B4000329E2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B547F7EABE6A49F09EC85797 /* Pods_JRLMapsExample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC170031E483B4000329E2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC1700E1E483B4000329E2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66BB18F0A73FF5D5DB4E4C74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				780654DCA82846750F11EF67 /* Pods_JRLMapsUtils.framework */,
+				54D1E2F76FAF957B9505C253 /* Pods_JRLMapsExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9A087B744DE029538E18E439 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9CDF180663E811C21BECAF40 /* Pods-JRLMapsUtils.debug.xcconfig */,
+				C6EFC4AC4EBC3F9ADC35E987 /* Pods-JRLMapsUtils.release.xcconfig */,
+				7DD4FB3D97558017A1C52C6D /* Pods-JRLMapsExample.debug.xcconfig */,
+				AFC2A93621D5BF9281925138 /* Pods-JRLMapsExample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ECC16F991E482F9900329E2C = {
+			isa = PBXGroup;
+			children = (
+				ECC16FAE1E482FBA00329E2C /* Podfile */,
+				ECC16FA41E482F9900329E2C /* JRLMapsUtils */,
+				ECC16FEF1E483B4000329E2C /* JRLMapsExample */,
+				ECC170091E483B4000329E2C /* JRLMapsExampleTests */,
+				ECC170141E483B4000329E2C /* JRLMapsExampleUITests */,
+				ECC16FA31E482F9900329E2C /* Products */,
+				9A087B744DE029538E18E439 /* Pods */,
+				66BB18F0A73FF5D5DB4E4C74 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ECC16FA31E482F9900329E2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECC16FA21E482F9900329E2C /* libJRLMapsUtils.a */,
+				ECC16FEE1E483B4000329E2C /* JRLMapsExample.app */,
+				ECC170061E483B4000329E2C /* JRLMapsExampleTests.xctest */,
+				ECC170111E483B4000329E2C /* JRLMapsExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECC16FA41E482F9900329E2C /* JRLMapsUtils */ = {
+			isa = PBXGroup;
+			children = (
+				ECC16FA51E482F9900329E2C /* JRLMapsUtils.h */,
+				ECC16FA61E482F9900329E2C /* JRLMapsUtils.m */,
+				ECC1702C1E4843F400329E2C /* Classes */,
+			);
+			path = JRLMapsUtils;
+			sourceTree = "<group>";
+		};
+		ECC16FEF1E483B4000329E2C /* JRLMapsExample */ = {
+			isa = PBXGroup;
+			children = (
+				ECC16FF31E483B4000329E2C /* AppDelegate.h */,
+				ECC16FF41E483B4000329E2C /* AppDelegate.m */,
+				ECC170281E483E0100329E2C /* Common.h */,
+				ECC170241E483D4400329E2C /* Classes */,
+				ECC16FF91E483B4000329E2C /* Main.storyboard */,
+				ECC170251E483DDA00329E2C /* MenuViewController.h */,
+				ECC170261E483DDA00329E2C /* MenuViewController.m */,
+				ECC16FFC1E483B4000329E2C /* Assets.xcassets */,
+				ECC16FFE1E483B4000329E2C /* LaunchScreen.storyboard */,
+				ECC170011E483B4000329E2C /* Info.plist */,
+				ECC16FF01E483B4000329E2C /* Supporting Files */,
+			);
+			path = JRLMapsExample;
+			sourceTree = "<group>";
+		};
+		ECC16FF01E483B4000329E2C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECC16FF11E483B4000329E2C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECC170091E483B4000329E2C /* JRLMapsExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECC1700A1E483B4000329E2C /* JRLMapsExampleTests.m */,
+				ECC1700C1E483B4000329E2C /* Info.plist */,
+			);
+			path = JRLMapsExampleTests;
+			sourceTree = "<group>";
+		};
+		ECC170141E483B4000329E2C /* JRLMapsExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECC170151E483B4000329E2C /* JRLMapsExampleUITests.m */,
+				ECC170171E483B4000329E2C /* Info.plist */,
+			);
+			path = JRLMapsExampleUITests;
+			sourceTree = "<group>";
+		};
+		ECC170241E483D4400329E2C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				ECC170211E483D4000329E2C /* GoogleMapsDropPinViewController.h */,
+				ECC170221E483D4000329E2C /* GoogleMapsDropPinViewController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		ECC1702C1E4843F400329E2C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECC16FA11E482F9900329E2C /* JRLMapsUtils */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECC16FAB1E482F9900329E2C /* Build configuration list for PBXNativeTarget "JRLMapsUtils" */;
+			buildPhases = (
+				18E47B4E46A771857DBE3209 /* [CP] Check Pods Manifest.lock */,
+				ECC16F9E1E482F9900329E2C /* Sources */,
+				ECC16F9F1E482F9900329E2C /* Frameworks */,
+				ECC16FA01E482F9900329E2C /* CopyFiles */,
+				C330F1E770FFF4D13A2CF346 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JRLMapsUtils;
+			productName = JRLMapsUtils;
+			productReference = ECC16FA21E482F9900329E2C /* libJRLMapsUtils.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		ECC16FED1E483B4000329E2C /* JRLMapsExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECC1701E1E483B4000329E2C /* Build configuration list for PBXNativeTarget "JRLMapsExample" */;
+			buildPhases = (
+				04B63FE94B547244012370E8 /* [CP] Check Pods Manifest.lock */,
+				ECC16FEA1E483B4000329E2C /* Sources */,
+				ECC16FEB1E483B4000329E2C /* Frameworks */,
+				ECC16FEC1E483B4000329E2C /* Resources */,
+				E2FB98929BF742AAA6A437E3 /* [CP] Embed Pods Frameworks */,
+				61480806E15902BD4BBA8E62 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JRLMapsExample;
+			productName = JRLMapsExample;
+			productReference = ECC16FEE1E483B4000329E2C /* JRLMapsExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECC170051E483B4000329E2C /* JRLMapsExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECC1701F1E483B4000329E2C /* Build configuration list for PBXNativeTarget "JRLMapsExampleTests" */;
+			buildPhases = (
+				ECC170021E483B4000329E2C /* Sources */,
+				ECC170031E483B4000329E2C /* Frameworks */,
+				ECC170041E483B4000329E2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECC170081E483B4000329E2C /* PBXTargetDependency */,
+			);
+			name = JRLMapsExampleTests;
+			productName = JRLMapsExampleTests;
+			productReference = ECC170061E483B4000329E2C /* JRLMapsExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECC170101E483B4000329E2C /* JRLMapsExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECC170201E483B4000329E2C /* Build configuration list for PBXNativeTarget "JRLMapsExampleUITests" */;
+			buildPhases = (
+				ECC1700D1E483B4000329E2C /* Sources */,
+				ECC1700E1E483B4000329E2C /* Frameworks */,
+				ECC1700F1E483B4000329E2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECC170131E483B4000329E2C /* PBXTargetDependency */,
+			);
+			name = JRLMapsExampleUITests;
+			productName = JRLMapsExampleUITests;
+			productReference = ECC170111E483B4000329E2C /* JRLMapsExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECC16F9A1E482F9900329E2C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "JRLee Pty Ltd";
+				TargetAttributes = {
+					ECC16FA11E482F9900329E2C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					ECC16FED1E483B4000329E2C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					ECC170051E483B4000329E2C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ECC16FED1E483B4000329E2C;
+					};
+					ECC170101E483B4000329E2C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ECC16FED1E483B4000329E2C;
+					};
+				};
+			};
+			buildConfigurationList = ECC16F9D1E482F9900329E2C /* Build configuration list for PBXProject "JRLMapsUtils" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECC16F991E482F9900329E2C;
+			productRefGroup = ECC16FA31E482F9900329E2C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECC16FA11E482F9900329E2C /* JRLMapsUtils */,
+				ECC16FED1E483B4000329E2C /* JRLMapsExample */,
+				ECC170051E483B4000329E2C /* JRLMapsExampleTests */,
+				ECC170101E483B4000329E2C /* JRLMapsExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECC16FEC1E483B4000329E2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC170001E483B4000329E2C /* LaunchScreen.storyboard in Resources */,
+				ECC16FFD1E483B4000329E2C /* Assets.xcassets in Resources */,
+				ECC16FFB1E483B4000329E2C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC170041E483B4000329E2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC1700F1E483B4000329E2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04B63FE94B547244012370E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		18E47B4E46A771857DBE3209 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		61480806E15902BD4BBA8E62 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JRLMapsExample/Pods-JRLMapsExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C330F1E770FFF4D13A2CF346 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JRLMapsUtils/Pods-JRLMapsUtils-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2FB98929BF742AAA6A437E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JRLMapsExample/Pods-JRLMapsExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECC16F9E1E482F9900329E2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC16FA71E482F9900329E2C /* JRLMapsUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC16FEA1E483B4000329E2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC170231E483D4000329E2C /* GoogleMapsDropPinViewController.m in Sources */,
+				ECC16FF51E483B4000329E2C /* AppDelegate.m in Sources */,
+				ECC16FF21E483B4000329E2C /* main.m in Sources */,
+				ECC170271E483DDA00329E2C /* MenuViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC170021E483B4000329E2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC1700B1E483B4000329E2C /* JRLMapsExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC1700D1E483B4000329E2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC170161E483B4000329E2C /* JRLMapsExampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECC170081E483B4000329E2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECC16FED1E483B4000329E2C /* JRLMapsExample */;
+			targetProxy = ECC170071E483B4000329E2C /* PBXContainerItemProxy */;
+		};
+		ECC170131E483B4000329E2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECC16FED1E483B4000329E2C /* JRLMapsExample */;
+			targetProxy = ECC170121E483B4000329E2C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECC16FF91E483B4000329E2C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECC16FFA1E483B4000329E2C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECC16FFE1E483B4000329E2C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECC16FFF1E483B4000329E2C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECC16FA91E482F9900329E2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ECC16FAA1E482F9900329E2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECC16FAC1E482F9900329E2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CDF180663E811C21BECAF40 /* Pods-JRLMapsUtils.debug.xcconfig */;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		ECC16FAD1E482F9900329E2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6EFC4AC4EBC3F9ADC35E987 /* Pods-JRLMapsUtils.release.xcconfig */;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		ECC170181E483B4000329E2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DD4FB3D97558017A1C52C6D /* Pods-JRLMapsExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JRLMapsExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pocket-mall.JRLMapsExample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECC170191E483B4000329E2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFC2A93621D5BF9281925138 /* Pods-JRLMapsExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JRLMapsExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pocket-mall.JRLMapsExample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ECC1701A1E483B4000329E2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JRLMapsExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pocket-mall.JRLMapsExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JRLMapsExample.app/JRLMapsExample";
+			};
+			name = Debug;
+		};
+		ECC1701B1E483B4000329E2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JRLMapsExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pocket-mall.JRLMapsExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JRLMapsExample.app/JRLMapsExample";
+			};
+			name = Release;
+		};
+		ECC1701C1E483B4000329E2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JRLMapsExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pocket-mall.JRLMapsExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JRLMapsExample;
+			};
+			name = Debug;
+		};
+		ECC1701D1E483B4000329E2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JRLMapsExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pocket-mall.JRLMapsExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JRLMapsExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECC16F9D1E482F9900329E2C /* Build configuration list for PBXProject "JRLMapsUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC16FA91E482F9900329E2C /* Debug */,
+				ECC16FAA1E482F9900329E2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECC16FAB1E482F9900329E2C /* Build configuration list for PBXNativeTarget "JRLMapsUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC16FAC1E482F9900329E2C /* Debug */,
+				ECC16FAD1E482F9900329E2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECC1701E1E483B4000329E2C /* Build configuration list for PBXNativeTarget "JRLMapsExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC170181E483B4000329E2C /* Debug */,
+				ECC170191E483B4000329E2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECC1701F1E483B4000329E2C /* Build configuration list for PBXNativeTarget "JRLMapsExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC1701A1E483B4000329E2C /* Debug */,
+				ECC1701B1E483B4000329E2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECC170201E483B4000329E2C /* Build configuration list for PBXNativeTarget "JRLMapsExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC1701C1E483B4000329E2C /* Debug */,
+				ECC1701D1E483B4000329E2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECC16F9A1E482F9900329E2C /* Project object */;
+}

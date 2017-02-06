@@ -1,0 +1,23 @@
+PODS:
+  - GoogleMaps (2.1.1):
+    - GoogleMaps/Maps (= 2.1.1)
+  - GoogleMaps/Base (2.1.1)
+  - GoogleMaps/Maps (2.1.1):
+    - GoogleMaps/Base
+  - GooglePlaces (2.1.1):
+    - GoogleMaps/Base (= 2.1.1)
+  - JRLUtils (0.1.3)
+
+DEPENDENCIES:
+  - GoogleMaps
+  - GooglePlaces
+  - JRLUtils
+
+SPEC CHECKSUMS:
+  GoogleMaps: a5b5bbe47734e2443bde781a6aa64e69fdb6d785
+  GooglePlaces: 35636d86e5020cba3856eb988c09a5491de0a65a
+  JRLUtils: 53fe7c0887c86486abb243da095ea1f67f4195e1
+
+PODFILE CHECKSUM: 776aa661fb634f103f56977fcf1595725b4fa322
+
+COCOAPODS: 1.1.1

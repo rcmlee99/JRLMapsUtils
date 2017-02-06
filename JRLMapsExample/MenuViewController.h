@@ -18,22 +18,9 @@
 ////////////////////////////////////////////////////////////////////////////
 
 #import <UIKit/UIKit.h>
-#import <GoogleMaps/GoogleMaps.h>
-@import JRLUtils;
 
-/**
- *  Protocol for selection of item from table list
- */
-@protocol DropPinDelegate <NSObject>
-/**
- *  Delegate method to call after window of drop PIN is tap
- */
-- (void)didTapDropPinWindow:(GMSMarker *)marker;
+@interface MenuViewController : UIViewController
 
-@end
-
-@interface GoogleMapsDropPinViewController : UIViewController
-@property (nonatomic, weak) id<DropPinDelegate> delegate;
-
+@property (weak, nonatomic) IBOutlet UILabel *coordinates;
 
 @end
